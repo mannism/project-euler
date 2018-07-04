@@ -43,4 +43,4 @@ value = calc_Triangle_index(500)
 triangle = (value * (value + 1)) / 2
 elapsed = (time.time() - start)
 
-print "result %s returned in %s seconds." % (triangle,elapsed) #just to set time
+print ("result %s returned in %s seconds." %  (value,elapsed)) #show values
